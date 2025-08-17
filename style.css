@@ -44,7 +44,9 @@ section {
 .wrapper {
     width: 100%;
     min-height: 100vh;
-    background-image: url(img/1647188682_8-abrakadabra-fun-p-zvezdnoe-nebo-dlya-prezentatsii-8.jpg);
+    background-image: url(img/45.jpg);
+    /* background-image: url(img/1055.jpg); */
+    /* background-image: url(img/1647188682_8-abrakadabra-fun-p-zvezdnoe-nebo-dlya-prezentatsii-8.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -380,3 +382,6 @@ section {
     align-items: center;
     justify-content: center
 }
+
+/* /////////////////////////////////////// */
+/* page_region */
