@@ -13,6 +13,16 @@ body {
     margin: 0 auto;
     margin-bottom: 100px;
 }
+
+@media screen and (max-width: 770px) {
+    .all {
+        max-width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+}
+
 .input {
     visibility: hidden;
   }
@@ -20,9 +30,22 @@ body {
     width: 70%;
     height: 100%;
     margin: 1rem auto 3rem auto;
-    border: 0.5rem solid rgb(2, 47, 131);
+    border: 0.5rem solid rgba(183, 183, 184, 0.692);
     border-radius: 5%;
     overflow: hidden;
+  }
+
+  @media screen and (max-width: 760px) {
+    .slides__container {
+        width: 80%;
+      }
+  }
+
+  @media screen and (max-width: 500px) {
+    .slides__container {
+        width: 100%;
+        border: 0.1rem solid rgba(183, 183, 184, 0.692);
+      }
   }
   .ribbon {
     display: flex;

@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="slider.css">
     <link rel="stylesheet" href="style.css">
-    <title>Profiles</title>
+    <title>Profile</title>
 </head>
+
 <body>
     <div class="wrapper">
         <header class="header">
@@ -19,94 +22,77 @@
                 </a>
                 <nav class="nav">
                     <ul class="nav__list">
-                        <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
-                        <li class="nav__item"><a class="nav__link" href="#profile">Profiles</a></li>
-                        <li class="nav__item"><a class="nav__link" href="#region">Region</a></li>
-                        <li class="nav__item"><a class="nav__link" href="#category">Category</a></li>
+                        <li class="nav__item"><a class="nav__link" href="/index.html">Home</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#about">About me</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#photos">Photos</a></li>
                         <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
                     </ul>
+                    <img class="burger" src="img/burger.png" alt="">
                 </nav>
             </div>
         </header>
         <main class="main">
-            <section class="home" id="home">
-            <div class="container home__container">
-                <div class="home__wrapper-img">
-                    <img class="home__img" src="img/background_photo.jpg" loading="lazy" alt="photo">
-                </div>
-                <div class="wrapper-title">
-                    <h1 class="title-post">My name is Anna</h1>
-                <h2 class="subtitle">I am a photographer from Miami Beach</h2>
-                </div>
-            </div>
-        </section>
-        <section class="about">
-            <div class="container about__container">
-                <h2 class="section__title">A little about me</h2>
-            <p class="section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
-            </div>
-        </section>
-        <section class="post">
-            <div class="container post__container">
-                <h2 class="section__title">Check out my work</h2>
-                <div></div>
-
-            </div>
-        </section>
-        <section class="all">
-        <div id="slider__wrapper">
-            <input class="input" type="radio" name="slider" id="switch-1" checked >
-            <input class="input" type="radio" name="slider" id="switch-2">
-            <input class="input" type="radio" name="slider" id="switch-3">
-            <input class="input" type="radio" name="slider" id="switch-4">
-            <input class="input" type="radio" name="slider" id="switch-5">
-            <input class="input" type="radio" name="slider" id="switch-6">
-            <input class="input" type="radio" name="slider" id="switch-7">
-            <input class="input" type="radio" name="slider" id="switch-8">
-            <input class="input" type="radio" name="slider" id="switch-9">
-            <input class="input" type="radio" name="slider" id="switch-10">
-
-                <div class="slides__container">
-                    <div class="ribbon">
-                        <div class="image"><img class="sliler__img" src="img/avatar.jpg" alt=""></div>
-                        <div class="image"><img class="sliler__img" src="img/avatar.jpg" alt=""></div>
-                        <div class="image"><img class="sliler__img" src="img/avatar.jpg" alt=""></div>
-                        <div class="image"><img class="sliler__img" src="img/avatar.jpg" alt=""></div>
-                        <div class="image"><img class="sliler__img" src="img/avatar.jpg" alt=""></div>
-                        <div class="image"><img class="sliler__img" src="img/avatar.jpg" alt=""></div>
-                        <div class="image"><img class="sliler__img" src="img/avatar.jpg" alt=""></div>
-                        <div class="image"><img class="sliler__img" src="img/avatar.jpg" alt=""></div>
-                        <div class="image"><img class="sliler__img" src="img/avatar.jpg" alt=""></div>
-                        <div class="image"><img class="sliler__img" src="img/avatar.jpg" alt=""></div>
+            <section class="home" id="#">
+                <div class="container home__container">
+                    <div class="home__wrapper-img">
+                        <img class="home__img" src="img/background_photo.jpg" loading="lazy" alt="photo">
+                    </div>
+                    <div class="wrapper-title">
+                        <h1 class="title-post">My name is Anna</h1>
+                        <h2 class="subtitle">I am a photographer from Miami Beach</h2>
                     </div>
                 </div>
-
-
-            <div class="block">
-                <div class="title">
-                    <div id="controls" class="controls">
-                        <div class="text">Photo</div>
-                        <div class="text">Photo</div>
-                        <div class="text">Photo</div>
-                        <div class="text">Photo</div>
-                        <div class="text">Photo</div>
-                        <div class="text">Photo</div>
-                        <div class="text">Photo</div>
-                        <div class="text">Photo</div>
-                        <div class="text">Photo</div>
-                        <div class="text">Photo</div>
+            </section>
+            <section class="about" id="about">
+                <div class="container about__container">
+                    <h2 class="section__title">A little about me</h2>
+                    <p class="section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae. Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Quisquam, quae. Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Quisquam, quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae. Lorem
+                        ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Quisquam, quae.</p>
+                </div>
+            </section>
+            <section class="all" id="photos">
+                <div class="container post__container">
+                    <h2 class="section__title">Check out my work</h2>
+                    <div id="slider__wrapper">
+                        <input class="input" type="radio" name="slider" id="switch-1" checked>
+                        <input class="input" type="radio" name="slider" id="switch-2">
+                        <input class="input" type="radio" name="slider" id="switch-3">
+                        <input class="input" type="radio" name="slider" id="switch-4">
+                        <input class="input" type="radio" name="slider" id="switch-5">
+                        <div class="slides__container">
+                            <div class="ribbon">
+                                <div class="image"><img class="sliler__img" src="img/avatar.jpg" alt=""></div>
+                                <div class="image"><img class="sliler__img" src="img/avatar.jpg" alt=""></div>
+                                <div class="image"><img class="sliler__img" src="img/avatar.jpg" alt=""></div>
+                                <div class="image"><img class="sliler__img" src="img/avatar.jpg" alt=""></div>
+                                <div class="image"><img class="sliler__img" src="img/avatar.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <div class="title">
+                                <div id="controls" class="controls">
+                                    <div class="text">Photo</div>
+                                    <div class="text">Photo</div>
+                                    <div class="text">Photo</div>
+                                    <div class="text">Photo</div>
+                                    <div class="text">Photo</div>
+                                </div>
+                            </div>
+                            <div id="active" class="active">
+                                <label for="switch-1" class="circle"><span class="dot"></span></label>
+                                <label for="switch-2" class="circle"><span class="dot"></span></label>
+                                <label for="switch-3" class="circle"><span class="dot"></span></label>
+                                <label for="switch-4" class="circle"><span class="dot"></span></label>
+                                <label for="switch-5" class="circle"><span class="dot"></span></label>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div id="active" class="active">
-                    <label for="switch-1" class="circle"><span class="dot"></span></label>
-                    <label for="switch-2" class="circle"><span class="dot"></span></label>
-                    <label for="switch-3" class="circle"><span class="dot"></span></label>
-                    <label for="switch-4" class="circle"><span class="dot"></span></label>
-                    <label for="switch-5" class="circle"><span class="dot"></span></label>
-                </div>
-            </div>
-        </div>
-    </section>
+            </section>
         </main>
         <footer class="footer" id="contact">
             <div class="container footer__container">
@@ -133,4 +119,5 @@
         </footer>
     </div>
 </body>
+
 </html>
