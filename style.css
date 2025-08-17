@@ -1,5 +1,5 @@
 :root {
-    --color-body: #020049;
+    --color-body: #020049c4;
     --color-log0: #fff;
     --color-nav: #fff;
     --color-title: #fff;
@@ -204,6 +204,11 @@ section {
     text-align: center;
 }
 
+.title__region {
+    max-width: 100%;
+    text-align: center;
+}
+
 /* profile */
 
 .profile {
@@ -326,13 +331,13 @@ section {
 .btn {
     max-width: 190px;
     width: 100%;
-    padding: 10px 50px;
+    padding: 20px;
     text-align: center;
     font-family: 'Playfair Display', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    letter-spacing: 4%;
+    letter-spacing: 8%;
     color: var(--color-region);
     border: 3px solid var(--color-border);
     background-color: transparent;
