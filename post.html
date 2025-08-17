@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="slider.css">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Profiles</title>
 </head>
 <body>
     <div class="wrapper">
@@ -24,7 +28,109 @@
                 </nav>
             </div>
         </header>
+        <main class="main">
+            <section class="home" id="home">
+            <div class="container home__container">
+                <div class="home__wrapper-img">
+                    <img class="home__img" src="img/background_photo.jpg" loading="lazy" alt="photo">
+                </div>
+                <div class="wrapper-title">
+                    <h1 class="title-post">My name is Anna</h1>
+                <h2 class="subtitle">I am a photographer from Miami Beach</h2>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container about__container">
+                <h2 class="section__title">A little about me</h2>
+            <p class="section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+            </div>
+        </section>
+        <section class="post">
+            <div class="container post__container">
+                <h2 class="section__title">Check out my work</h2>
+                <div></div>
+
+            </div>
+        </section>
+        <section class="all">
+        <div id="slider__wrapper">
+            <input class="input" type="radio" name="slider" id="switch-1" checked >
+            <input class="input" type="radio" name="slider" id="switch-2">
+            <input class="input" type="radio" name="slider" id="switch-3">
+            <input class="input" type="radio" name="slider" id="switch-4">
+            <input class="input" type="radio" name="slider" id="switch-5">
+            <input class="input" type="radio" name="slider" id="switch-1" checked >
+            <input class="input" type="radio" name="slider" id="switch-2">
+            <input class="input" type="radio" name="slider" id="switch-3">
+            <input class="input" type="radio" name="slider" id="switch-4">
+            <input class="input" type="radio" name="slider" id="switch-5">
+
+                <div class="slides__container">
+                    <div class="ribbon">
+                        <div class="image"><img src="img/avatar.jpg" alt=""></div>
+                        <div class="image"><img src="img/avatar.jpg" alt=""></div>
+                        <div class="image"><img src="img/avatar.jpg" alt=""></div>
+                        <div class="image"><img src="img/avatar.jpg" alt=""></div>
+                        <div class="image"><img src="img/avatar.jpg" alt=""></div>
+                        <div class="image"><img src="img/avatar.jpg" alt=""></div>
+                        <div class="image"><img src="img/avatar.jpg" alt=""></div>
+                        <div class="image"><img src="img/avatar.jpg" alt=""></div>
+                        <div class="image"><img src="img/avatar.jpg" alt=""></div>
+                        <div class="image"><img src="img/avatar.jpg" alt=""></div>
+                    </div>
+                </div>
+
+
+            <div class="block">
+                <div class="title">
+                    <div id="controls" class="controls">
+                        <div class="text">Photo</div>
+                        <div class="text">Photo</div>
+                        <div class="text">Photo</div>
+                        <div class="text">Photo</div>
+                        <div class="text">Photo</div>
+                        <div class="text">Photo</div>
+                        <div class="text">Photo</div>
+                        <div class="text">Photo</div>
+                        <div class="text">Photo</div>
+                        <div class="text">Photo</div>
+                    </div>
+                </div>
+                <div id="active" class="active">
+                    <label for="switch-1" class="circle"><span class="dot"></span></label>
+                    <label for="switch-2" class="circle"><span class="dot"></span></label>
+                    <label for="switch-3" class="circle"><span class="dot"></span></label>
+                    <label for="switch-4" class="circle"><span class="dot"></span></label>
+                    <label for="switch-5" class="circle"><span class="dot"></span></label>
+                </div>
+            </div>
+        </div>
+    </section>
+        </main>
+        <footer class="footer" id="contact">
+            <div class="container footer__container">
+                <a class="logo" href="#">
+                    <h6 class="logo__text">LOGO</h6>
+                </a>
+                <span class="footer__tel">012(34)56789</span>
+                <span class="footer__email">abc@abc.com</span>
+                <ul class="footer__list">
+                    <li class="footer__social">
+                        <img src="img/facebook.svg" loading="lazy" alt="">
+                    </li>
+                    <li class="footer__social">
+                        <img src="img/instagram.svg" loading="lazy" alt="">
+                    </li>
+                    <li class="footer__social">
+                        <img src="img/tvitter.svg" loading="lazy" alt="">
+                    </li>
+                    <li class="footer__social">
+                        <img src="img/you_tube.svg" loading="lazy" alt="">
+                    </li>
+                </ul>
+            </div>
+        </footer>
     </div>
-    <h1>"Profiles - Hallandale Beach"</h1>
 </body>
 </html>

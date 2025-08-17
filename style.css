@@ -4,6 +4,7 @@
     --color-nav: #fff;
     --color-title: #fff;
     --color-section-title: #ffffffaf;
+    --color-subtitle: #ffffff9e;
     --color-name: #fff;
     --color-city: #ffffff9e;
     --color-category: #ffffff9e;
@@ -11,6 +12,8 @@
     --color-border: #ffffff9e;
     --color-region: #ffffff9e;
     --color-footer: #bcbcbc9d;
+
+    --font: 'Playfair Display', serif;
 }
 
 * {
@@ -104,7 +107,7 @@ section {
 }
 
 .logo__text {
-    font-family: 'Playfair Display', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: var(--font);
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
@@ -157,7 +160,7 @@ section {
 }
 
 .nav__link {
-    font-family: 'Playfair Display', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: var(--font);
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -195,7 +198,7 @@ section {
 .title {
     max-width: 600px;
     width: 100%;
-    font-family: 'Playfair Display', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: var(--font);
     font-weight: 400;
     font-size: 48px;
     line-height: 56px;
@@ -207,6 +210,44 @@ section {
 .title__region {
     max-width: 100%;
     text-align: center;
+}
+
+.wrapper-title {
+    width: 100%;
+}
+
+.title-post {
+    width: 100%;
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 8%;
+    color: var(--color-title);
+    text-align: center;
+}
+
+.subtitle {
+    /* max-width: 600px; */
+    width: 100%;
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 28px;
+    letter-spacing: 8%;
+    color: var(--color-subtitle);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.section__text {
+    width: 100%;
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 8%;
+    color: var(--color-subtitle);
 }
 
 /* profile */
@@ -226,7 +267,7 @@ section {
 
 .section__title {
     width: 100%;
-    font-family: 'Playfair Display', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: var(--font);
     font-weight: 400;
     font-size: 40px;
     line-height: 28px;
@@ -274,7 +315,7 @@ section {
 }
 
 .card__name {
-    font-family: 'Playfair Display', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: var(--font);
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
@@ -283,7 +324,7 @@ section {
 }
 
 .card__city {
-    font-family: 'Playfair Display', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: var(--font);
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -292,7 +333,7 @@ section {
 }
 
 .card__category {
-    font-family: 'Playfair Display', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: var(--font);
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -301,7 +342,7 @@ section {
 }
 
 .card__date {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font);
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
@@ -333,7 +374,7 @@ section {
     width: 100%;
     padding: 20px;
     text-align: center;
-    font-family: 'Playfair Display', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: var(--font);
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -361,7 +402,7 @@ section {
 
 .footer__tel,
 .footer__email {
-    font-family: 'Playfair Display', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: var(--font);
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
